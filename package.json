@@ -1,0 +1,26 @@
+{
+  "name": "fcc_twitch",
+  "version": "1.0.0",
+  "description": "This is the last intermediate front-end project for freecodecamp.com. I am creating a website that let's you see which Twitch streamers are online.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newyork-anthonyng/fcc_twitch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newyork-anthonyng/fcc_twitch/issues"
+  },
+  "homepage": "https://github.com/newyork-anthonyng/fcc_twitch#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.6.1",
+    "request": "^2.69.0"
+  }
+}

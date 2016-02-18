@@ -1,0 +1,62 @@
+$background_color: #6441A5;
+$streamers_background_color: #925FF1;
+$streamer_background_color: #C3A9F3;
+$error_background_color: #FF6961;
+$offline_background_color: #5B4F71;
+
+body {
+  background-color: $background_color;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.streamers {
+  background-color: $streamers_background_color;
+
+  img {
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: auto;
+  }
+}
+
+.streamer {
+  background-color: $streamer_background_color;
+  height: 125px;
+
+  border-radius: 10px;
+
+  width: 95%;
+  margin: 0.5% 2.5%;
+}
+
+.online {
+  font-size: 36px;
+
+  span {
+    margin: 1em;
+  }
+}
+
+.error, .offline {
+  text-align: center;
+  font-size: 24px;
+}
+
+.error {
+  background-color: $error_background_color;
+}
+
+.offline {
+  background-color: $offline_background_color;
+}
+
+.error span, .offline span {
+  min-height: 3em;
+  display: table-cell;
+  vertical-align: middle;
+}

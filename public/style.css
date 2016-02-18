@@ -1,0 +1,43 @@
+body {
+  background-color: #6441A5; }
+
+.container {
+  width: 95%;
+  margin: 0 auto; }
+
+.streamers {
+  background-color: #925FF1; }
+  .streamers img {
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: auto; }
+
+.streamer {
+  background-color: #C3A9F3;
+  height: 125px;
+  border-radius: 10px;
+  width: 95%;
+  margin: 0.5% 2.5%; }
+
+.online {
+  font-size: 36px; }
+  .online span {
+    margin: 1em; }
+
+.error, .offline {
+  text-align: center;
+  font-size: 24px; }
+
+.error {
+  background-color: #FF6961; }
+
+.offline {
+  background-color: #5B4F71; }
+
+.error span, .offline span {
+  min-height: 3em;
+  display: table-cell;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=style.css.map */
